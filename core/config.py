@@ -1,0 +1,1 @@
+CSV_FILE_PATH="/home/milenkoespinoza/Documentos/Proyectos/Python_Ejercicios/core/db/calls_without_target.csv"
