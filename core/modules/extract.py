@@ -7,9 +7,9 @@ class Extractor:
     def extract_from_csv(self):
         try:
         
-            df = pd.read_csv(self.file_path)
+            df = pd.read_csv(self.file_path, delimiter=';')
             #print(f"\n{df.to_string()}")
             return df
         
         except Exception as e:
-            print(f"Error en el extract.py {e}", exec_info=True)
+            print(f"Error en el extract.py {e}")

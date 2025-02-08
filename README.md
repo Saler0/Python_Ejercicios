@@ -7,5 +7,6 @@ source venv/bin/activate
 
 ## ejeciutar en linux
 ```bash
+cd core
 python3 main.py
 ```
